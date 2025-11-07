@@ -10,17 +10,149 @@ header {
 }
 
 .tabella {
-    width: 100%;
-    max-width: 800px;
+    width: 800px;
     background-color: orange;
     margin: 0 auto;
-    border-style: dotted;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;+
+    justify-content: space-between;
     flex-basis: auto;
+}
+
+.logo-alto {
+    border-style: dotted;
     padding: 2px;
+}
+
+.link {
+    border-style: dotted;
+    padding: 2px;
+
+}
+
+.login {
+    border-style: dotted;
+    padding: 2px;
+}
+
+
+
+.hero-section {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.hero-item {
+    width: 650px;
+    height: 200px;
+    background-color: pink;
+    align-items: center;
+    border-style: dashed;
+}
+
+.container-wite {
+    display: flex;
+    justify-content: center;
+    padding: 30px 365px;
+}
+
+.container-gray {
+    display: flex;
+    justify-content: center;
+    padding: 30px 365px;
+    background-color: gray;
+    flex-direction: row-reverse;
+}
+
+.blue-item {
+    background-color: #1e90ff;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    border-style: dashed;
+
+}
+
+.pink-item {
+    background-color: #ffc0cb;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    border-style: dashed;
+}
+
+.container-green-cube {
+    display: flex;
+    justify-content: center;
+    padding: 30px 365px;
+    background-color: gray;
+    flex-direction: row-reverse;
+}
+
+.green-cube-item {
+    background-color: green;
+    width: 800px;
+    height: 600px;
+    align-items: center;
+    border-style: dashed;
+}
+
+footer {
+    background-color: black;
+
+}
+
+.container-rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.spazio-box {
+    display: flex;
+    width: 800px;
+    height: 300px;
+}
+
+.red-item {
+    width: 30%;
+    background-color: #f08080;
+    border-style: dashed;
+}
+
+.green-item {
+    background-color: #20b2aa;
+    width: calc(70% / 4);
+    border-style: dashed;
+}
+
+.last-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+}
+
+.spazio {
+    display: flex;
+    width: 800px;
+    height: 20px;
+    flex-direction: row;
+    background-color: #ADD8E6;
+    justify-content: space-between;
+
+}
+
+.last-item {
+    background-color: #f08080;
+    border-style: dashed;
 }

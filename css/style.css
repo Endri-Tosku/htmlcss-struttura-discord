@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #ADD8E6;
+    padding: 10px;
+}
+
+.tabella {
+    width: 100%;
+    max-width: 800px;
+    background-color: orange;
+    margin: 0 auto;
+    border-style: dotted;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;+
+    flex-basis: auto;
+    padding: 2px;
+}
